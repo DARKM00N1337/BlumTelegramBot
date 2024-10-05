@@ -13,8 +13,8 @@ class Settings(BaseSettings):
     USE_RANDOM_DELAY_IN_RUN: bool = True
     RANDOM_DELAY_IN_RUN: list[int] = [5, 30]
 
-    USE_REF: bool = False
-    REF_ID: str = ''
+    USE_REF: bool = True
+    REF_ID: str = 'ref_qWyUEl4732'
 
     USE_PROXY_FROM_FILE: bool = False
 
