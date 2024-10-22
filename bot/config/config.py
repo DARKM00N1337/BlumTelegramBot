@@ -10,11 +10,15 @@ class Settings(BaseSettings):
     PLAY_GAMES: bool = True
     POINTS: list[int] = [190, 230]
 
+    AUTO_TASKS: bool = True
+
     USE_RANDOM_DELAY_IN_RUN: bool = True
     RANDOM_DELAY_IN_RUN: list[int] = [5, 30]
 
     USE_REF: bool = True
     REF_ID: str = 'ref_qWyUEl4732'
+
+    TRIBE_CHAT_TAG: str = 'hidden_coding'
 
     USE_PROXY_FROM_FILE: bool = False
 

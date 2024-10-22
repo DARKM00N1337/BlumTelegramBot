@@ -24,6 +24,7 @@ Select an action:
 
     1. Run clicker
     2. Create session
+    
 """
 
 global tg_clients
