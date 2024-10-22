@@ -18,7 +18,7 @@ class Settings(BaseSettings):
     USE_REF: bool = True
     REF_ID: str = 'ref_geIfqBwJGs'
 
-    TRIBE_CHAT_TAG: str = 'hidden_coding'
+    TRIBE_CHAT_TAG: str = 'darkm00n_fuck'
 
     USE_PROXY_FROM_FILE: bool = False
 
